@@ -1,0 +1,130 @@
+* {
+    /* margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 1%;
+    padding-right: 1%; */
+    background-color: #884A39;
+    align-items: center;
+
+    
+}
+
+html{
+    font-size: 10px;
+}
+
+/* .main-content{
+    height: 100vh;
+    background-color: #884A39;
+} */
+
+.head{
+    background-color: #C38154;
+    color: #F9E0BB;
+    cursor:default;
+    border-radius: 0.2em;
+    width: clamp(20rem,45vw,80rem);
+    padding: 0.3em 0.7em;
+    font-size: clamp(5rem, 5vw + 1rem, 9rem);
+    text-align: center;
+    text-decoration: underline ;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 0.1em 0.1em #C38154;
+}
+
+
+.caption{
+    /* width: 40%; */
+    cursor:default;
+    border-radius: 0.2em;
+    padding: 0.1em 0.8em;
+    background-color: #FFC26F;
+    color: #884A39;
+    text-align: center;
+    font-weight: normal;
+    font-size:  clamp(2rem, 1.5vw + 1rem, 3.6rem);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+}
+
+/* .hidden{
+    background-color: #FFC26F;
+    display: none;
+    color: transparent;
+    text-shadow: 0 0 0 #884A39;
+}
+
+.caption:hover > .hidden{
+    display: inline;
+} */
+
+/* h3.hover{
+    width: 100%;
+    margin-left: 0%;+
+    margin-right: 0%;
+} */
+
+.food-items{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+p{
+    border-radius: 0.2em;
+    font-family: 'Roboto';
+    cursor: pointer;
+    font-weight: bold;
+    font-size: clamp(2rem, 2.5vw + 1rem, 4rem);
+    color: #5a3125;
+    text-shadow: 0.05em 0.05em #713f31;
+    line-height: 4em;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    background-color: #C38154;
+    width: 63rem;
+    float: left;
+    transition: box-shadow 0.15s,
+    margin-left 0.15s,  
+    margin-right 0.15s,
+    margin-top 0.15s,
+    margin-bottom 0.15s;
+}
+
+p:hover{
+    box-shadow: 0.3em 0.3em 0px #3f231b;
+    margin-left: calc(3rem - 1rem);
+    margin-right: calc(3rem + 1rem);
+    margin-top: calc(2.5rem - 0.3em);
+    margin-bottom: calc(2.5rem + 0.3em);
+    
+}
+
+p:active{
+    box-shadow: 0.2em 0.2em 0px #3f231b;
+    margin-left: calc(3rem - 0.3rem);
+    margin-right: calc(3rem + 0.3rem);
+    margin-top: calc(2.5rem - 0.3em);
+    margin-bottom: calc(2.5rem + 0.3em);
+    
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .menu > * {
+    flex-basis: 100%;
+} */

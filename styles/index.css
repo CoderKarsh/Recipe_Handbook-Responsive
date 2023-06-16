@@ -1,0 +1,108 @@
+* {
+    /* margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 1%;
+    padding-right: 1%; */
+    background-color: #884A39;
+
+    
+}
+
+/* .main-content{
+    height: 100vh;
+    background-color: #884A39;
+} */
+
+.head{
+    background-color: #C38154;
+    color: #F9E0BB;
+    cursor:default;
+    border-radius: 7px;
+    width: 40%;
+    padding: 7px 16px;
+    font-size: 72px;
+    text-align: center;
+    text-decoration: underline ;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    text-shadow: 3px 3px #C38154;
+}
+
+
+.caption{
+    /* width: 40%; */
+    cursor:default;
+    border-radius: 7px;
+    padding: 3px 16px;
+    background-color: #FFC26F;
+    color: #884A39;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+}
+
+/* .hidden{
+    background-color: #FFC26F;
+    display: none;
+    color: transparent;
+    text-shadow: 0 0 0 #884A39;
+}
+
+.caption:hover > .hidden{
+    display: inline;
+} */
+
+/* h3.hover{
+    width: 100%;
+    margin-left: 0%;+
+    margin-right: 0%;
+} */
+
+p{
+    border-radius: 7px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 36px;
+    color: #5a3125;
+    text-shadow: 1px 1px #713f31;
+    line-height: 25vh;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+    background-color: #C38154;
+    width: 45%;
+    float: left;
+    transition: box-shadow 0.15s,
+    margin-left 0.15s,  
+    margin-right 0.15s;
+}
+
+p:hover{
+    box-shadow: 4px 4px 0px #3f231b;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 21px;
+    margin-bottom: 29px;
+    
+}
+
+p:active{
+    box-shadow: 2px 2px 0px #3f231b;
+    margin-left: 2.3%;
+    margin-right: 2.7%;
+    margin-top: 23px;
+    margin-bottom: 27px;
+    
+}

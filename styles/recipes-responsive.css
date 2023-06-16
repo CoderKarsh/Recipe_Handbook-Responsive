@@ -1,0 +1,123 @@
+* {
+    /* margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 1%;
+    padding-right: 1%; */
+    background-color: #884A39;
+
+    
+}
+
+/* .main-content{
+    height: 100vh;
+    background-color: #884A39;
+} */
+
+h2{
+    background-color: #C38154;
+    color: #F9E0BB;
+    cursor:default;
+    border-radius: 0.2em;
+    width: clamp(20rem,45vw,80rem);
+    padding: 0.3em 0.7em;
+    font-size: clamp(5rem, 3vw + 1rem, 9rem);
+    text-align: center;
+    text-decoration: underline ;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 0.1em 0.1em #C38154;
+}
+
+
+
+h3{
+    /* width: 40%; */
+    cursor:default;
+    border-radius: 0.2em;
+    padding: 0.1em 0.8em;
+    background-color: #FFC26F;
+    color: #884A39;
+    text-align: center;
+    font-weight: normal;
+    font-size:  clamp(2rem, 1.7vw + 1rem, 3.6rem);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    text-decoration: underline #884A39 dashed;
+    font-weight: bold;
+}
+
+.textholder{
+    padding: 7px 16px;
+    border-radius: 1em;
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-color: #FFC26F;
+    color: #884A39;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 90%;
+}
+
+ul{
+    font-family: 'Roboto';
+
+    background-color: #FFC26F;
+    color: #884A39;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 90%;
+}
+
+ol{
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-color: #FFC26F;
+    color: #884A39;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 90%;
+}
+
+li{
+    font-family: 'Roboto';
+    font-size: clamp(0.8rem, 0.8vw + 0.3rem, 4rem);
+    background-color: #FFC26F;
+    color: #884A39;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 90%;
+}
+
+p{
+    background-color: #FFC26F;
+}
+
+.container{
+    background-color: #FFC26F;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+}
+.image{
+    background-color: #FFC26F;
+}
+.text{
+    background-color: #FFC26F;
+}
+img{
+    background-color: #C38154;
+    color: #884A39;
+    margin-top: 7px;    
+    padding: 20px;
+    width: 300px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 0px #884A39;
+}

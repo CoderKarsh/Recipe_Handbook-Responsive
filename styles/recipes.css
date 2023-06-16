@@ -1,0 +1,119 @@
+* {
+    /* margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 1%;
+    padding-right: 1%; */
+    background-color: #884A39;
+
+    
+}
+
+/* .main-content{
+    height: 100vh;
+    background-color: #884A39;
+} */
+
+h2{
+    border-radius: 7px;
+    width: 40%;
+    padding: 7px 16px;
+    background-color: #C38154;
+    color: #F9E0BB;
+    font-size: 72px;
+    text-align: center;
+    text-decoration: underline ;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    text-shadow: 3px 3px #C38154;
+}
+
+
+h3{
+    width: 40%;
+    border-radius: 7px;
+    padding: 3px 16px;
+    background-color: #FFC26F;
+    color: #884A39;
+    text-align: center;
+    text-decoration: underline #884A39 dashed;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.textholder{
+    padding: 7px 16px;
+    border-radius: 7px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-color: #FFC26F;
+    color: #884A39;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 90%;
+}
+
+ul{
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-color: #FFC26F;
+    color: #884A39;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 90%;
+}
+
+ol{
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-color: #FFC26F;
+    color: #884A39;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 90%;
+}
+
+li{
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-color: #FFC26F;
+    color: #884A39;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 90%;
+}
+
+p{
+    background-color: #FFC26F;
+}
+
+.container{
+    background-color: #FFC26F;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+}
+.image{
+    background-color: #FFC26F;
+}
+.text{
+    background-color: #FFC26F;
+}
+img{
+    background-color: #C38154;
+    color: #884A39;
+    margin-top: 7px;    
+    padding: 20px;
+    width: 300px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 0px #884A39;
+}
